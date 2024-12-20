@@ -1,1 +1,1 @@
-web: gunicorn raffle.wsgi
+web: waitress-serve --port=$PORT raffle.wsgi:application
