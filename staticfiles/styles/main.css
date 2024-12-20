@@ -1,0 +1,49 @@
+
+
+.rolling-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin: 20px auto;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #number-display {
+    position: absolute;
+    animation: roll-number 0.5s linear infinite;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .drawn-numbers {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .drawn-numbers ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .drawn-numbers li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
